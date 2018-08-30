@@ -1,3 +1,16 @@
+/**
+ * @file Configures a Router for the Vue Application.
+ * @author Vapurrmaid <vapurrmaid@gmail.com>
+ *
+ * @license
+ *
+ * Copyright (C) 2018 kevinmarley.ca <vapurrmaid@gmail.com>
+ *
+ * This code can be freely viewed and forked as per the GitHub
+ * terms of service. However, it may not be modified or distributed.
+ * The members of {@link https://github.com/KevinMarley} hold the sole rights
+ * for contribution and modification.
+ */
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
@@ -12,12 +25,9 @@ export default new Router({
       component: Home
     }
     // {
-    //   path: '/about',
-    //   name: 'about',
-    //   // route level code-splitting
-    //   // this generates a separate chunk (about.[hash].js) for this route
-    //   // which is lazy-loaded when the route is visited.
-    //   component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+    //   path: '/media',
+    //   name: 'media',
+    //   component: () => import(/* webpackChunkName: "media" */ './views/Media.vue')
     // }
   ]
 })

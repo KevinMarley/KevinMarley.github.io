@@ -1,5 +1,19 @@
+/*
+Globally available Animations definitions and classes.
+
+Author Vapurrmaid <vapurrmaid@gmail.com>
+
+Copyright (C) 2018 kevinmarley.ca <vapurrmaid@gmail.com>
+
+This code can be freely viewed and forked as per the GitHub
+terms of service. However, it may not be modified or distributed.
+The members of {@link https://github.com/KevinMarley} hold the sole rights
+for contribution and modification.
+*/
+
 // HAMBURGER ARROWS --------------------------------//
 
+/* Transforms the top horizontal line of a hamburger into an arrowhead */
 @keyframes topToArrow {
     0% { top: calc(#{$hamburger-height} * -0.4); }
 
@@ -19,7 +33,7 @@
     }
 }
 
-
+/* Transforms the bottom  horizontal line of a hamburger into an arrowhead */
 @keyframes botToArrow {
     0% { top: calc(#{$hamburger-height} * 0.4); }
 
@@ -39,7 +53,7 @@
     }
 }
 
-
+/* Transforms the top line of an arrowhead into the top horizontal line of a hamburger */
 @keyframes arrowToTop {
     0% {
       opacity: 0;
@@ -54,7 +68,7 @@
     100% { top: calc(#{$hamburger-height} * -0.4); }
 }
 
-
+/* Transforms the bottom line of an arrowhead into the bottom horizontal line of a hamburger */
 @keyframes arrowToBot {
     0% {
       opacity: 0;
@@ -67,8 +81,9 @@
     100% { top: calc(#{$hamburger-height} * 0.4); }
 }
 
-// NAVIGATION DRAWER ------------------------------------//
+// .slideRight Transition Classes ------------------------------------//
 
+/* To be used within a <transition> directive */
 .slideRight {
   &-enter-active,
   &-leave-active {

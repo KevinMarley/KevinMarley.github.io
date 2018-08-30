@@ -1,8 +1,15 @@
-/*!
- * typography.scss
- * ======================
- * Font styling project-wide
- */
+/*
+Globally available Font Definitions.
+
+Author Vapurrmaid <vapurrmaid@gmail.com>
+
+Copyright (C) 2018 kevinmarley.ca <vapurrmaid@gmail.com>
+
+This code can be freely viewed and forked as per the GitHub
+terms of service. However, it may not be modified or distributed.
+The members of {@link https://github.com/KevinMarley} hold the sole rights
+for contribution and modification.
+*/
 
 // base
 body {
@@ -14,7 +21,7 @@ body {
 .heading-primary {
 	// boxing
 	display: block;
-	// styles
+	// styling
 	color: $color-white;
 	text-transform: uppercase;
 
@@ -53,17 +60,9 @@ body {
 	}
 }
 
-// nav > ul > li
+// use as part of a navigation collection, ex: nav > ul > li
 .nav-link {
 	font-size: $navigation-link-font-size;
 	font-weight: 500;
 	letter-spacing: .3rem;
-}
-
-.link {
-	&:link,
-	&:visited {
-		text-decoration: none !important;
-		text-transform: uppercase !important;
-	}
 }

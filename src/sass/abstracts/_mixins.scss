@@ -1,5 +1,19 @@
+/*
+Globally available Style Mixins. Uses variables.scss.
+
+Author Vapurrmaid <vapurrmaid@gmail.com>
+
+Copyright (C) 2018 kevinmarley.ca <vapurrmaid@gmail.com>
+
+This code can be freely viewed and forked as per the GitHub
+terms of service. However, it may not be modified or distributed.
+The members of {@link https://github.com/KevinMarley} hold the sole rights
+for contribution and modification.
+*/
+
 @import 'variables';
 
+/* Use to vertically center */
 @mixin absoluteCenter {
 	position: absolute;
 	top: 50%;
@@ -7,12 +21,14 @@
 	transform: translate(-50%, -50%);
 }
 
+/* Horizontal centering, define width of parent */
 @mixin centerblock {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+/* Standard clear fix for collapsed content */
 @mixin clearfix {
 	&::after {
 		content: "";
@@ -21,26 +37,10 @@
 	}
 }
 
-@mixin column {
-	margin-left: auto;
-	left: auto;
-	right: auto;
-}
-
-@mixin divider-small {
-	&::before {
-		// sizing
-		width: 5rem;
-		height: .75rem;
-		margin-bottom: 1rem;
-		// display
-		content: "";
-		display: block;
-		// styles
-		background-color: $color-secondary-dark-2;
-	}
-}
-
+/*
+ Creates an HRule above the current block
+ PARAM $width - width of the ruler
+ */
 @mixin ruler($width) {
 	&::before {
     // boxing, sizing
@@ -55,6 +55,10 @@
   }
 }
 
+/*
+ Adds a media query based on a pre-defined breakpoint
+ PARAM $breakpoint - {tablet, desktop, xl}
+ */
 @mixin respond($breakpoint) {
 	@if $breakpoint == tablet {
 		@media only screen and (min-width: 600px) { @content };
