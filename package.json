@@ -21,7 +21,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "copyreadme": "cp README.md dist/README.md",
-    "deploy": "npm run build && npm run copyreadme && push-dir --dir=dist --remote=origin --branch=master --cleanup --verbose",
+    "createcname": "createcname.sh",
+    "deploy": "npm run build && npm run copyreadme && npm run createcname && push-dir --dir=dist --remote=origin --branch=master --cleanup --verbose",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "lint:fix": "vue-cli-service lint --fix",
