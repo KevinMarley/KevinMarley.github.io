@@ -10,6 +10,9 @@
           <h5 id="Connect" class="footer__heading">
             Connect with Kevin
           </h5>
+          <p class="footer__p">
+            kevinmarleyward12@gmail.com
+          </p>
         </div>
 
         <!-- Footer Links -->
@@ -31,7 +34,7 @@
               </a>
             </li>
             <li class="footer__list__item">
-              <a class="footer__link" href="kevinmarleyward12@gmail.com">
+              <a class="footer__link" href="mailto:kevinmarleyward12@gmail.com">
                 <img class="footer__link__img" src="@/assets/GLogo.png">
               </a>
             </li>
@@ -49,7 +52,7 @@
           <div class="col s6">
             Copyright &copy; 2018  Kevin Marley <br />
             <span class="vapurrmaid">
-              Developed by
+              Developed, Designed by
               <a class="vapurrmaid vapurrmaid__logo" href="https://github.com/vapurrmaid">
                 Vapurrmaid
               </a>
@@ -82,10 +85,15 @@ export default {
 @import '../sass/abstracts/variables';
 
 .footer {
+  min-width: 320px;
   background-color: $color-primary-light-2 !important;
 
   &__heading {
     letter-spacing: 2px;
+  }
+
+  &__p {
+    padding: .5rem 0;
   }
 
   &__list {
@@ -100,9 +108,7 @@ export default {
 
   &__link {
 
-    &__img {
-      height: 3rem;
-    }
+    &__img { height: 3rem; }
   }
 
   &__reporting {
