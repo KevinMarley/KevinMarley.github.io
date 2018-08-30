@@ -2,7 +2,9 @@
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
 # Kevin Marley
-> https://kevinmarley.ca
+Kevin Marley is a 2018 candidate for Hamilton City Council, Ward 12. Check out http://www.kevinmarley.ca for more information.
+
+>  **Site:** http://www.kevinmarley.ca
 
 ## Build Version
 Version: 0.1.0
@@ -18,7 +20,7 @@ Version: 0.1.0
 - Designed, Developed & Maintained by [Vapurrmaid](https://github.com/vapurrmaid)
     + email: vapurrmaid@gmail.com
 
-Please bugs and issues [here](https://github.com/KevinMarley/CampaignSite/issues).
+Please report bugs and issues [here](https://github.com/KevinMarley/KevinMarley.github.io/issues).
 
 ## Copyright Notice
 

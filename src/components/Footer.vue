@@ -60,10 +60,10 @@
           </div>
 
           <div class="col s6 footer__reporting">
-            <a class="footer__reporting__link" href="https://github.com/KevinMarley/CampaignSite">
+            <a class="footer__reporting__link" href="https://github.com/KevinMarley/KevinMarley.github.io/tree/dev">
               <i class="material-icons white-text">code</i>
             </a>
-            <a href="https://github.com/KevinMarley/CampaignSite/issues">
+            <a href="https://github.com/KevinMarley/KevinMarley.github.io/issues">
               <i class="material-icons white-text">bug_report</i>
             </a>
           </div>
