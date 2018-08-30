@@ -52,7 +52,7 @@ export default {
   width: $navigation-drawer-width;
   // positioning - top layer/cover BELOW header
   position: absolute;
-  top: calc(#{$hamburger-height} + #{$hamburger-top});
+  top: calc(#{$hamburger-height} + #{$hamburger-top} + 1rem);
   z-index: $z-index-highest;
   // styling
   background-color: $color-white;
