@@ -1,26 +1,14 @@
-# kmcc18
+# Kevin Marley
+Coming Soon
+> https://kevinmarley.ca
 
-## Project setup
-```
-npm install
-```
+> **NOTE:** The software, images and items may not be used or reproduced without permission.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Contact
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Bugs and Maintenance
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Run your unit tests
-```
-npm run test:unit
-```
+
+
+

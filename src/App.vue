@@ -1,29 +1,30 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+  <div
+    :class="{ 'application-hidden' : isNavDrawerOpen }"
+    id="app">
+    <Nav />
+    <main>
+      <router-view></router-view>
+    </main>
+    <Footer />
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+import { mapGetters } from 'vuex'
+import Footer from '@/components/Footer'
+import Nav from '@/components/Nav'
+
+export default {
+  name: 'App',
+  components: { Footer, Nav },
+  computed: mapGetters('application', ['isNavDrawerOpen'])
 }
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+</script>
+
+<style>
+.application-hidden {
+  height: 100vh;
+  overflow: hidden;
 }
 </style>

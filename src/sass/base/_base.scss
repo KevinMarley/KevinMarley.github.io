@@ -1,0 +1,43 @@
+/*!
+ * BASE.scss
+ *======================================
+ * A set of element-level resets to give
+ * a universal base across all browers
+ */
+
+// universal reset
+*,
+*::before,
+*::after {
+	// remove baseline margin, padding
+	margin: 0;
+	padding: 0;
+	// inherit border-box from body
+	box-sizing: inherit;
+	-webkit-box-sizing: inherit;
+}
+
+// sets default font
+html {
+	// 1 rem = 10px;
+	font-size: 62.5%;
+	font-weight: normal;
+}
+
+// set boxing
+body {
+	// boxing = border box
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	// remove baseline margin, padding
+	margin: 0;
+	padding: 0;
+	// height: 100% will cover entire screen
+	position: relative;
+}
+
+// remove decorations from links
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}

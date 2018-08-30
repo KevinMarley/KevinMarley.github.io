@@ -1,0 +1,70 @@
+@import 'variables';
+
+@mixin absoluteCenter {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@mixin centerblock {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin clearfix {
+	&::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+@mixin column {
+	margin-left: auto;
+	left: auto;
+	right: auto;
+}
+
+@mixin divider-small {
+	&::before {
+		// sizing
+		width: 5rem;
+		height: .75rem;
+		margin-bottom: 1rem;
+		// display
+		content: "";
+		display: block;
+		// styles
+		background-color: $color-secondary-dark-2;
+	}
+}
+
+@mixin ruler($width) {
+	&::before {
+    // boxing, sizing
+    width: $width;
+    height: 2px;
+    margin-bottom: 1rem;
+    // display
+    content: "";
+    display: block;
+    // style
+    background-color: $color-secondary-dark-2;
+  }
+}
+
+@mixin respond($breakpoint) {
+	@if $breakpoint == tablet {
+		@media only screen and (min-width: 600px) { @content };
+	}
+
+	@if $breakpoint == desktop {
+		@media only screen and (min-width: 992px) { @content };
+	}
+
+	@if $breakpoint == xl {
+		@media only screen and (min-width: 1200px) { @content };
+	}
+}

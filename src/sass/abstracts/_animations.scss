@@ -1,0 +1,84 @@
+// HAMBURGER ARROWS --------------------------------//
+
+@keyframes topToArrow {
+    0% { top: calc(#{$hamburger-height} * -0.4); }
+
+
+    50% {
+      transform: rotate(0);
+      width: $hamburger-height;
+      top: 0rem;
+    }
+
+
+    100% {
+      top: 0rem;
+      transform: rotate(-35deg);
+      transform-origin: left;
+      width: calc(#{$hamburger-height} / 2);
+    }
+}
+
+
+@keyframes botToArrow {
+    0% { top: calc(#{$hamburger-height} * 0.4); }
+
+
+    50% {
+      transform: rotate(0);
+      width: $hamburger-height;
+      top: 0rem;
+    }
+
+
+    100% {
+      top: 0rem;
+      transform: rotate(35deg);
+      transform-origin: left;
+      width: calc(#{$hamburger-height} / 2);
+    }
+}
+
+
+@keyframes arrowToTop {
+    0% {
+      opacity: 0;
+      top: 0rem;
+      transform: rotate(-35deg);
+      transform-origin: left;
+      width: calc(#{$hamburger-height} / 2);
+    }
+
+
+    49% { opacity: 0; }
+    100% { top: calc(#{$hamburger-height} * -0.4); }
+}
+
+
+@keyframes arrowToBot {
+    0% {
+      opacity: 0;
+      top: 0rem;
+      transform: rotate(35deg);
+      transform-origin: left;
+      width: calc(#{$hamburger-height} / 2);
+    }
+    49% { opacity: 0; }
+    100% { top: calc(#{$hamburger-height} * 0.4); }
+}
+
+// NAVIGATION DRAWER ------------------------------------//
+
+.slideRight {
+  &-enter-active,
+  &-leave-active {
+    transition: all .5s ease-in-out;
+  }
+
+  &-enter,
+  &-leave-to {
+    opacity: 0;
+    transform: translateX(-100vw);
+    width: 0;
+  }
+}

@@ -1,0 +1,26 @@
+// clearfix
+.clearfix { clear: both; }
+// boxing
+.u-no-padding { padding: 0 !important; }
+// visibility
+.u-hide { display: none !important; }
+// alignment
+.u-center { text-align: center !important; }
+.u-left { float: left !important; }
+.u-left-align { text-align: left !important; }
+.u-right-align { text-align: right !important; }
+.u-right { float: right !important; }
+
+// translucent body overlay 
+.u-overlay {
+	// size
+	height: 10vh;
+	width: 100vw;
+	// position
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: $z-overlay;
+	// style
+	background-color: rgba($color-black, .2);
+}

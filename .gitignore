@@ -19,3 +19,10 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+
+# Photoshop Files
+*.psd
+
+# Local Files for Uploading Into The Repo Issues etc
+.uploads/
+
