@@ -20,7 +20,7 @@
             <CardSlider class="hoverable" imageName="cross-road-above.jpg" title="Infrastructure">
               <p class="flow-text ward12-card-info">
                 <span class="ward12-card-info--huge">C</span>urrent Road Infrastructure is
-                not suitable to handle all the new traffic coming from new developments in
+                not suitable to handle the traffic coming from new developments in
                 the area. People need more efficient ways of getting to the frequented areas
                 of Ancaster. More roads going to high volume areas as well as converting
                 traffic lights to traffic circles can help the growing population of the area
@@ -33,7 +33,7 @@
           <div class="col s12 l4">
             <CardSlider class="hoverable" imageName="traffic-jam.jpg" title="Traffic">
               <p class="flow-text ward12-card-info">
-                <span class="ward12-card-info--huge">The</span> situation regarding slow traffic
+                <span class="ward12-card-info--huge">T</span>he situation regarding slow traffic
                 on the Mohawk ramp needs to be addressed. Previous discussions explored both
                 widening the Lincoln Alexander Parkway as well as possibly the 403. This area
                 is a bottleneck for those driving up the mountain and commuters living
@@ -81,28 +81,31 @@
               <p class="flow-text ward12-card-info article-city-concerns__p">
                 <span class="article-city-concerns__p--emphasis">Road quality</span> has been an
                 issue with Hamilton for a long time. The city needs to do a better job staying on
-                top of it. We need to see the reporting mechanism digitized and provide real time
-                updates to residents with timelines on repairs.
+                top of it. I believe the city should utilize modern technology in order to
+                digitize reporting mechanisms and provide real-time information regarding
+                timelines and repairs.
               </p>
 
               <p class="flow-text ward12-card-info article-city-concerns__p">
                 <span class="article-city-concerns__p--emphasis">Public transit</span> is a key
-                issue for the city of Hamilton right now. This is an area
-                that the city needs to optimized. LRT will be an important part of our city moving
-                forward. With LRT relieving some of the crowded buses in the city better access to
-                outer areas of the city is needed. Furthermore, the Hamilton train station needs
+                issue for the city of Hamilton right now. City transit drastically
+                needs to be improved. LRT will be an important step forward for  our city.
+                LRT should bring more foot traffic to the core and relieve
+                some of the crowded buses in the inner city. It should allow HSR resources
+                to improve connectivity with the outer areas.
+                Furthermore, the Hamilton train station needs
                 to be utilized to help people get into and out of the city more efficiently.
               </p>
               <p class="flow-text ward12-card-info article-city-concerns__p">
                 <span class="article-city-concerns__p--emphasis">Affordable housing</span> needs
-                to be viewed as a basic right. Hamilton has done a lot  of good in this area but
-                there is more we can do. We need a system in place that protects its citizens
+                to be viewed as a basic right. Hamilton has done well but
+                there is more we can do in order to protect citizens
                 from being displaced out of their neighbourhoods.
               </p>
 
               <p class="flow-text ward12-card-info article-city-concerns__p">
-                Other Initiatives include working with libraries and education institutions in
-                order to provide access for academic journals to the public and Implementing
+                Other initiatives include working with libraries and education institutions in
+                order to provide access for academic journals to the public as well as implementing
                 a program for homeless and low income citizens to work for the city.
               </p>
             </article>
