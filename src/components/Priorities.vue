@@ -21,10 +21,9 @@
               <p class="flow-text ward12-card-info">
                 <span class="ward12-card-info--huge">C</span>urrent Road Infrastructure is
                 not suitable to handle the traffic coming from new developments in
-                the area. People need more efficient ways of getting to the frequented areas
-                of Ancaster. More roads going to high volume areas as well as converting
-                traffic lights to traffic circles can help the growing population of the area
-                get around.
+                the area. Members of the community need more efficient ways of getting to the frequented areas
+                of Ancaster. More roads going to high volume areas, as well as converting
+                traffic lights to traffic circles, can help the growing population get around.
               </p>
             </CardSlider>
           </div>
@@ -50,14 +49,14 @@
                 <span class="ward12-card-info--huge">W</span>ith the recent boundary changes
                 there is a clear challenge to meet both urban and rural needs. It is clear
                 that the priorities for those in Ancaster are different from those in
-                outlying areas. I will push for a boundary change that is in line with the
+                surrounding areas. I will push for a boundary change that is in line with the
                 provincial boundaries.
               </p>
               <p class="flow-text ward12-card-info">
-                <span class="ward12-card-info--huge">It</span> is critical to address concerns
+                <span class="ward12-card-info--huge">I</span>t is critical to address concerns
                 both online and in-person through town hall meetings. I will ensure all
                 members of the ward have an avenue to voice their concerns and come to a
-                consensus on what changes they would like to see.
+                consensus on what changes are a priority for the ward.
               </p>
             </CardSlider>
           </div>
@@ -74,23 +73,23 @@
           <div class="col s12 m8 offset-m2">
             <article class="article-city-concerns">
               <p class="flow-text ward12-card-info article-city-concerns__p">
-                <span class="ward12-card-info--huge">In</span> addition to Ward 12 priorities,
+                <span class="ward12-card-info--huge">I</span>n addition to Ward 12 priorities,
                 I have numerous city-wide concerns.
               </p>
 
               <p class="flow-text ward12-card-info article-city-concerns__p">
                 <span class="article-city-concerns__p--emphasis">Road quality</span> has been an
-                issue with Hamilton for a long time. The city needs to do a better job staying on
-                top of it. I believe the city should utilize modern technology in order to
+                issue in Hamilton for a long time. The city needs to do a better job staying on
+                top of repairs. I believe the city should utilize modern technology in order to
                 digitize reporting mechanisms and provide real-time information regarding
                 timelines and repairs.
               </p>
 
               <p class="flow-text ward12-card-info article-city-concerns__p">
-                <span class="article-city-concerns__p--emphasis">Public transit</span> is a key
-                issue for the city of Hamilton right now. City transit drastically
-                needs to be improved. LRT will be an important step forward for  our city.
-                LRT should bring more foot traffic to the core and relieve
+                <span class="article-city-concerns__p--emphasis">Public transit</span> is currently a key
+                issue for the city of Hamilton right.
+                LRT will be an important step forward for  our city;
+                it should bring more foot traffic to the core and relieve
                 some of the crowded buses in the inner city. It should allow HSR resources
                 to improve connectivity with the outer areas.
                 Furthermore, the Hamilton train station needs
@@ -105,7 +104,7 @@
 
               <p class="flow-text ward12-card-info article-city-concerns__p">
                 Other initiatives include working with libraries and education institutions in
-                order to provide access for academic journals to the public as well as implementing
+                order to provide access to academic journals for the public as well as implementing
                 a program for homeless and low income citizens to work for the city.
               </p>
             </article>
