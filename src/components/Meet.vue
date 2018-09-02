@@ -21,10 +21,10 @@
           <article class="article-content about__content">
             <p class="flow-text about__paragraph">
               Kevin became a resident of Hamilton's Ward 12 at the age of 8 where he
-              attended Rousseau Elementary, Ancaster Senior Public and Ancaster High.
+              attended Rousseau Elementary, Ancaster Senior Public and Ancaster High School.
             </p>
             <p class="flow-text about__paragraph">
-              Kevin remained in Hamilton for post-secondary education completing a B.A
+              Kevin remained in Hamilton for post-secondary education completing a B.A.
               in Philosophy at McMaster University in 2013 whereby he was trained to think
               critically and logically.
             </p>
