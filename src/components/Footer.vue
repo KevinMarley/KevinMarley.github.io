@@ -20,25 +20,33 @@
           <ul class="footer__list">
             <li class="footer__list__item">
               <a class="footer__link" href="https://www.facebook.com/KevinMarleyWard12">
-                <img class="footer__link__img" src="@/assets/Flogo.png">
+                <img alt="facebook logo" title="connect on facebook" class="footer__link__img" src="@/assets/Flogo.png">
               </a>
             </li>
             <li class="footer__list__item">
               <a class="footer__link" href="https://www.instagram.com/kevin.marley.ward12/">
-                <img class="footer__link__img" src="@/assets/IG.png">
+                <img alt="instagram logo" title="connect on instagram" class="footer__link__img" src="@/assets/IG.png">
               </a>
             </li>
             <li class="footer__list__item">
               <a class="footer__link" href="https://twitter.com/Kevin_MarleyW12">
-                <img class="footer__link__img" src="@/assets/TLogo.png">
+                <img alt="twitter logo" title="connect on twitter" class="footer__link__img" src="@/assets/TLogo.png">
               </a>
             </li>
             <li class="footer__list__item">
               <a class="footer__link" href="mailto:kevinmarleyward12@gmail.com">
-                <img class="footer__link__img" src="@/assets/GLogo.png">
+                <img alt="gmail logo" title="connect on gmail" class="footer__link__img" src="@/assets/GLogo.png">
               </a>
             </li>
           </ul>
+        </div>
+
+        <!-- Donate -->
+        <div class="col s12">
+          <h5 id="Donate" class="footer__heading">
+            Campaign Donations
+          </h5>
+          <a class="btn" title="donte now" href="https://www.paypal.me/kevinmarleyward12">donate now</a>
         </div>
 
       </div>
