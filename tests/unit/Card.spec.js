@@ -1,7 +1,7 @@
 /* eslint-env mocha */
 
-import { expect } from 'chai'
 import { mount } from '@vue/test-utils'
+import { expect } from 'chai'
 import Card from '@/components/common/Card.vue'
 
 describe('App', function () {
