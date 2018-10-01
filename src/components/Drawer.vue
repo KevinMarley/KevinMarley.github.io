@@ -60,15 +60,10 @@ export default {
 
   &__list {
     // boxing
-    height: 80%;
+    height: 100%;
     padding: $navigation-list-padding !important; /* override materialize */
     // styling
     background-color: $color-grey;
-    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
-      // add diagnoal bg-color if supported
-      clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-    }
 
     @include respond(desktop) {
       margin: auto;
