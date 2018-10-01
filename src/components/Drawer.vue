@@ -11,8 +11,16 @@ OPTIMIZED FOR MOBILE
         :key="link.text"
         v-for="link in navlinks"
         v-scroll-to="link.anchor"
-        class="u-center hoverable nav-link nav__list__item nav__list__link">
+        class="u-center hoverable nav-link nav__list__item">
         {{ link.text }}
+      </li>
+    </ul>
+    <ul class="nav__list nav__list--external">
+      <li>
+        <a title="Kevin Marley Organization source" href="https://github.com/KevinMarley/KevinMarley.github.io">&copy; 2018 Kevin Marley</a>
+      </li>
+      <li>
+        <a title="Make a campaign donation" href="https://www.paypal.me/kevinmarleyward12">Donate</a>
       </li>
     </ul>
   </nav>
@@ -46,29 +54,22 @@ export default {
 @import '../sass/abstracts/variables';
 
 .nav {
-  // boxing
   height: 100%;
   min-width: 320px;
   width: $navigation-drawer-width;
-  // positioning - top layer/cover BELOW header
+
   position: absolute;
   top: calc(#{$hamburger-height} + #{$hamburger-top} + 1rem);
   z-index: $z-index-highest;
-  // styling
+
   background-color: $color-white;
   line-height: normal !important; /* override materialize */
 
+  // local navigation links
   &__list {
-    // boxing
-    height: 80%;
     padding: $navigation-list-padding !important; /* override materialize */
-    // styling
+
     background-color: $color-grey;
-    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
-      // add diagnoal bg-color if supported
-      clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-    }
 
     @include respond(desktop) {
       margin: auto;
@@ -76,17 +77,22 @@ export default {
     }
 
     &__item {
-      // boxing
       &:not(:last-child) { margin-bottom: 1.5rem; }
-      // positioning
+
       float: unset !important; /* override materialize */
-      // styling
+
       background: $color-white;
+      color: $color-secondary;
       padding: 1.5rem;
     }
 
-    &__link {
-      color: $color-secondary;
+    // external navigation links
+    &--external li {
+      float: left;
+
+      a {
+        color: $color-black;
+      }
     }
   }
 }
