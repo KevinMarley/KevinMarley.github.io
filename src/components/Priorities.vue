@@ -17,7 +17,7 @@
 
           <!-- INFRASTRUCTURE -->
           <div class="col s12 l4">
-            <CardSlider class="hoverable" imageName="cross-road-above.jpg" title="Infrastructure">
+            <CardSlider altText="Top down view of well organized roads, situated against a nature backdrop." class="hoverable" imageName="cross-road-above.jpg" title="Infrastructure">
               <p class="flow-text ward12-card-info">
                 <span class="ward12-card-info--huge">C</span>urrent Road Infrastructure is
                 not suitable to handle the traffic coming from new developments in
@@ -30,7 +30,7 @@
 
           <!-- TRAFFIC -->
           <div class="col s12 l4">
-            <CardSlider class="hoverable" imageName="traffic-jam.jpg" title="Traffic">
+            <CardSlider altText="Cars stuck in an urban traffic jam." class="hoverable" imageName="traffic-jam.jpg" title="Traffic">
               <p class="flow-text ward12-card-info">
                 <span class="ward12-card-info--huge">T</span>he situation regarding slow traffic
                 on the Mohawk ramp needs to be addressed. Previous discussions explored both
@@ -44,7 +44,7 @@
 
           <!-- Boundaries -->
           <div class="col s12 l4">
-            <CardSlider class="hoverable" imageName="Ward_Boundaries_2018-1024.png" title="Boundaries">
+            <CardSlider altText="A map of Hamilton's ward boundaries." class="hoverable" imageName="Ward_Boundaries_2018-1024.png" title="Boundaries">
               <p class="flow-text ward12-card-info">
                 <span class="ward12-card-info--huge">W</span>ith the recent boundary changes
                 there is a clear challenge to meet both urban and rural needs. It is clear
