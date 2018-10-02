@@ -2,8 +2,8 @@ language: node_js
 node_js:
   - "node"
 before_deploy:
-  - touch dist/README.md
-  - cp README.md dist/README.md
+  - npm run build
+  - npm run copyreadme
 deploy:
   provider: pages
   skip-cleanup: true
