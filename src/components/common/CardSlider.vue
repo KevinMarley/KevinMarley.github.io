@@ -2,7 +2,7 @@
   <Card class="card-slider">
 
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="card-slider__img activator" :src="image">
+      <img :alt="altText" class="card-slider__img activator" :src="image">
     </div>
 
     <div class="card-content card-slider__content">
@@ -27,19 +27,22 @@
 <script>
 import Card from '@/components/common/Card'
 
+/**
+ * A reusable Card component. Contains a click-able image that reveals text.
+ * Child nodes are the inner card (revealed 'under' image).
+ *
+ * @vue-prop {String} altText - Required. Textual description for the provided image
+ * @vue-prop {String} image - Required. Fully qualified path to an image asset.
+ * @vue-prop {String} title - Required. Title, appears on card front alongside image.
+ */
 export default {
   name: 'CardSlider',
   components: { Card },
 
   props: {
-    imageName: String,
+    altText: String,
+    image: String,
     title: String
-  },
-
-  data () {
-    return {
-      image: require(`@/assets/${this.imageName}`)
-    }
   }
 }
 </script>
