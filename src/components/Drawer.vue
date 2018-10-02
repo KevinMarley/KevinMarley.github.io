@@ -79,7 +79,7 @@ export default {
     &__item {
       &:not(:last-child) { margin-bottom: 1.5rem; }
 
-      float: unset !important; /* override materialize */
+      float: none !important; /* override materialize */
 
       background: $color-white;
       color: $color-secondary;
