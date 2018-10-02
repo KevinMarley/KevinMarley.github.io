@@ -1,5 +1,5 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-vue.svg)](https://forthebadge.com)
-[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
+[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard) [![Greenkeeper badge](https://badges.greenkeeper.io/KevinMarley/KevinMarley.github.io.svg)](https://greenkeeper.io/)
 
 # Kevin Marley
 Kevin Marley is a 2018 candidate for Hamilton City Council, Ward 12. Check out http://www.kevinmarley.ca for more information.
