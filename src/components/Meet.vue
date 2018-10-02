@@ -6,7 +6,7 @@
       <!-- ARTICLE + PICTURE ROW -->
       <div class="row">
 
-        <!-- PICTURE COLUMENT -->
+        <!-- PICTURE COLUMN -->
         <div class="col s12 l6">
           <img
             alt="Kevin standing in front of the Ancaster Village sign"
