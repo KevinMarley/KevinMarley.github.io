@@ -10,14 +10,19 @@ describe('Header', function () {
   })
 
   it('renders a root header with class header', function () {
-    expect(this.wrapper.find('header.header'))
+    expect(this.wrapper.classes())
+      .to.be.an('array')
+      .that.includes('header')
+      .and.to.have.lengthOf(1)
   })
 
   it('renders a primary heading h1', function () {
-    expect(this.wrapper.find('header h1.heading-primary'))
+    expect(this.wrapper.find('header h1.heading-primary').exists())
+      .to.equal(true)
   })
 
   it('renders a sub-heading', function () {
-    expect(this.wrapper.find('header h2.heading-secondary'))
+    expect(this.wrapper.find('header h2.heading-secondary').exists())
+      .to.equal(true)
   })
 })

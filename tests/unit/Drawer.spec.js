@@ -1,14 +1,10 @@
 /* eslint-env mocha */
 
 import { shallowMount, createLocalVue } from '@vue/test-utils'
-
 import Vuex from 'vuex'
 import VueScrollTo from 'vue-scrollto'
-
 import { expect } from 'chai'
-
 import { mockAction } from '../helpers'
-
 import Drawer from '@/components/Drawer'
 
 // setup a localVue for a mocked vuex application

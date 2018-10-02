@@ -10,10 +10,14 @@ describe('Footer', function () {
   })
 
   it('renders a root footer with class footer', function () {
-    expect(this.wrapper.find('footer.footer'))
+    expect(this.wrapper.find('footer').exists()).to.equal(true)
+    expect(this.wrapper.classes())
+      .to.be.an('array')
+      .that.includes('footer')
+      .and.to.have.lengthOf(2)
   })
 
   it('renders footer copyright', function () {
-    expect(this.wrapper.find('footer.footer div.footer-copyright'))
+    expect(this.wrapper.find('footer .footer-copyright').exists()).to.equal(true)
   })
 })

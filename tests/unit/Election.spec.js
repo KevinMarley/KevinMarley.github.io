@@ -10,6 +10,9 @@ describe('Election', function () {
   })
 
   it('renders a root div with class election', function () {
-    expect(this.wrapper.find('section div.election'))
+    expect(this.wrapper.find('div').classes())
+      .to.be.an('array')
+      .that.includes('election')
+      .and.have.lengthOf(2)
   })
 })

@@ -20,7 +20,10 @@ describe('CardSlider', function () {
   })
 
   it('renders a root with class card-slider', function () {
-    expect(this.wrapper.find('.card.card-slider'))
+    expect(this.wrapper.classes())
+      .to.be.an('array')
+      .that.includes('card-slider')
+      .and.to.have.lengthOf(1)
   })
 
   it('Renders the provided image', function () {
