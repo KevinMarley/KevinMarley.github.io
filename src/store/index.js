@@ -1,6 +1,5 @@
 /**
- * @file Configures Vuex Store. Registered for global use by
- * the Vue application.
+ * @file Configures Vuex Store.
  * @author Vapurrmaid <vapurrmaid@gmail.com>
  *
  * @license
@@ -13,18 +12,13 @@
  * for contribution and modification.
  */
 
-import Vue from 'vue'
-import Vuex from 'vuex'
-
 import AppModule from './modules/application'
 
 const debug = process.env.NODE_ENV !== 'production'
 
-Vue.use(Vuex)
-
-export default new Vuex.Store({
+export default {
   modules: {
     application: AppModule
   },
   strict: debug
-})
+}
