@@ -21,7 +21,7 @@ for contribution and modification.
 </template>
 
 <script>
-/** Card component **/
+/** Card component */
 export default {
   name: 'Card'
 }
