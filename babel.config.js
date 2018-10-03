@@ -1,7 +1,8 @@
 /**
- * @file Exports Configuration for Babel, a tool that adds JSX
- * and other language supports. This configuration is applied consistently
- * to all files in the project, including node_modules
+ * @file Exports configuration for Babel, a tool that adds JSX
+ * and other language supports in a backwards compatabile manner.
+ * This configuration is applied consistently to all files in the
+ * project, including the `node_modules/` directory.
  *
  * @author Vapurrmaid <vapurrmaid@gmail.com>
  *
