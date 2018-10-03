@@ -9,6 +9,7 @@ describe('Meet', function () {
     this.wrapper = shallowMount(Meet)
   })
 
+  // smoke test
   it('renders a root div with class about', function () {
     expect(this.wrapper.find('div').classes())
       .to.be.an('array')
@@ -16,6 +17,7 @@ describe('Meet', function () {
       .and.to.have.lengthOf(1)
   })
 
+  // smoke test for article
   it('renders an article', function () {
     expect(this.wrapper.find('div.about article').exists())
       .to.equal(true)

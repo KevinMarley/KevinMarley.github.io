@@ -33,6 +33,7 @@ describe('Drawer', function () {
     this.wrapper = shallowMount(Drawer, { store, localVue })
   })
 
+  // smoke test
   it('renders a root nav', function () {
     expect(this.wrapper.classes())
       .to.be.an('array')
@@ -41,11 +42,13 @@ describe('Drawer', function () {
     expect(this.wrapper.contains('nav.nav'))
   })
 
+  // smoke test for each set of nav links
   it('contains a list of links and list external links', function () {
     expect(this.wrapper.contains('nav.nav ul.nav__list'))
     expect(this.wrapper.contains('nav.nav ul.nav__list--external'))
   })
 
+  // ensures clicking a link calls the appropriate store action
   it('calls closeNavDrawer on nav li click', function () {
     const listItem = this.wrapper.find('nav.nav ul.nav__list li')
     listItem.trigger('click')

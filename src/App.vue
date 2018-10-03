@@ -1,10 +1,10 @@
 <!--
+File: App.vue
 
-Entry Vue Component. Listed components are always
-viewable. Declares the <main> section to be routed
-content.
+Description: Entry Vue Component. Listed components are always
+viewable. <main> section contains routed content.
 
-Author Vapurrmaid <vapurrmaid@gmail.com>
+Author: Vapurrmaid <vapurrmaid@gmail.com>
 
 Copyright (C) 2018 kevinmarley.ca <vapurrmaid@gmail.com>
 
@@ -12,8 +12,7 @@ This code can be freely viewed and forked as per the GitHub
 terms of service. However, it may not be modified or distributed.
 The members of {@link https://github.com/KevinMarley} hold the sole rights
 for contribution and modification.
-
- -->
+-->
 <template>
   <div
     :class="{ 'application-hidden' : isNavDrawerOpen }"

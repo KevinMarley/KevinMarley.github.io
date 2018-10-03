@@ -1,3 +1,17 @@
+<!--
+File: Election.vue
+
+Description: Cards regarding 2018 election information.
+
+Author: Vapurrmaid <vapurrmaid@gmail.com>
+
+Copyright (C) 2018 kevinmarley.ca <vapurrmaid@gmail.com>
+
+This code can be freely viewed and forked as per the GitHub
+terms of service. However, it may not be modified or distributed.
+The members of {@link https://github.com/KevinMarley} hold the sole rights
+for contribution and modification.
+-->
 <template>
   <Section>
     <div class="container election">
@@ -60,6 +74,9 @@
 import Card from '@/components/common/Card'
 import Section from '@/components/common/Section'
 
+/**
+ * Exports a set of cards detailing upcoming election information
+ */
 export default {
   name: 'Election',
   components: {
