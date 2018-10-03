@@ -1,3 +1,17 @@
+<!--
+File: Priorities.vue
+
+Description: Details various campaign priorities
+
+Author: Vapurrmaid <vapurrmaid@gmail.com>
+
+Copyright (C) 2018 kevinmarley.ca <vapurrmaid@gmail.com>
+
+This code can be freely viewed and forked as per the GitHub
+terms of service. However, it may not be modified or distributed.
+The members of {@link https://github.com/KevinMarley} hold the sole rights
+for contribution and modification.
+-->
 <template>
   <Section>
     <div class="ward12">
@@ -10,7 +24,6 @@
 
         <!-- WARD 12 Priorities -->
         <div class="row">
-
           <div class="col s12">
             <h4>Ward 12 Priorities</h4>
           </div>
@@ -60,12 +73,10 @@
               </p>
             </CardSlider>
           </div>
-
-        </div> <!-- END W12 ROW -->
+        </div>
 
         <!-- CITY PRIORITIES -->
         <div class="row">
-
           <div class="col s12">
             <h4 id="CityConcerns">City-Wide Concerns</h4>
           </div>
@@ -109,7 +120,6 @@
               </p>
             </article>
           </div>
-
         </div>
 
       </div>
@@ -122,6 +132,10 @@
 import CardSlider from '@/components/common/CardSlider'
 import Section from '@/components/common/Section'
 
+/**
+ * Exports Cards and an article detailing various
+ * campaign priorities.
+ */
 export default {
   name: 'Ward',
   components: {

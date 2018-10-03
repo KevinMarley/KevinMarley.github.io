@@ -1,10 +1,21 @@
 <!--
-NAVIGATION SIDE DRAWER
+File: Drawer.vue
 
-OPTIMIZED FOR MOBILE
- -->
+Description: Navigation drawer. Contains a nav and link elements.
+
+Author: Vapurrmaid <vapurrmaid@gmail.com>
+
+Copyright (C) 2018 kevinmarley.ca <vapurrmaid@gmail.com>
+
+This code can be freely viewed and forked as per the GitHub
+terms of service. However, it may not be modified or distributed.
+The members of {@link https://github.com/KevinMarley} hold the sole rights
+for contribution and modification.
+-->
 <template>
   <nav class="nav">
+
+    <!-- Relative Links -->
     <ul class="nav__list">
       <li
         @click="closeNavDrawer"
@@ -15,6 +26,8 @@ OPTIMIZED FOR MOBILE
         {{ link.text }}
       </li>
     </ul>
+
+    <!-- External Links -->
     <ul class="nav__list nav__list--external">
       <li>
         <a title="Kevin Marley Organization source" href="https://github.com/KevinMarley/KevinMarley.github.io">&copy; 2018 Kevin Marley</a>
@@ -23,6 +36,7 @@ OPTIMIZED FOR MOBILE
         <a title="Make a campaign donation" href="https://www.paypal.me/kevinmarleyward12">Donate</a>
       </li>
     </ul>
+
   </nav>
 </template>
 
@@ -37,7 +51,9 @@ const HOME_LINKS = [
   { text: 'Connect', anchor: '#Connect' }
 ]
 
-/** Navigation Component */
+/**
+ * Exports component representing a Navigation
+ */
 export default {
   name: 'Drawer',
   methods: mapActions('application', ['closeNavDrawer']),

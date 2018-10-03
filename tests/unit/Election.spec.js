@@ -9,6 +9,7 @@ describe('Election', function () {
     this.wrapper = shallowMount(Election)
   })
 
+  // smoke test
   it('renders a root div with class election', function () {
     expect(this.wrapper.find('div').classes())
       .to.be.an('array')

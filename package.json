@@ -2,11 +2,16 @@
   "name": "kmcc18",
   "version": "0.0.0",
   "description": "Source for www.kevinmarley.ca",
-  "keywords": [],
-  "homepage": "",
-  "bugs": "",
+  "keywords": [
+    "politics",
+    "hamont",
+    "hamilton",
+    "city council"
+  ],
+  "homepage": "https://kevinmarley.ca",
+  "bugs": "https://github.com/KevinMarley/KevinMarley.github.io/issues",
   "license": "UNLICENSED",
-  "people": {
+  "author": {
     "name": "Vapurrmaid",
     "email": "vapurrmaid@gmail.com",
     "url": "https://github.com/vapurrmaid"
@@ -17,11 +22,11 @@
     }
   ],
   "browser": "src/main.js",
-  "repository": "",
+  "repository": "https://github.com/KevinMarley/KevinMarley.github.io",
   "scripts": {
     "serve": "vue-cli-service serve",
     "copyreadme": "cp README.md dist/README.md",
-    "createcname": "createcname.sh",
+    "createcname": "bash ./bin/createcname.sh",
     "deploy": "npm run build && npm run copyreadme && npm run createcname && push-dir --dir=dist --remote=origin --branch=master --cleanup --verbose",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
@@ -49,6 +54,9 @@
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
     "vue-template-compiler": "^2.5.17"
+  },
+  "engines": {
+    "node": ">=8.11.0"
   },
   "private": true
 }
