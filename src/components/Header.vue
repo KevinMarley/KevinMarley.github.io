@@ -1,7 +1,7 @@
 <!--
 File: Header.vue
 
-Description: Site Header. Contains 'hero'/h1 title.
+Description: Main site Header. Wraps <h1>.
 
 Author: Vapurrmaid <vapurrmaid@gmail.com>
 
