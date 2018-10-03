@@ -2,8 +2,7 @@
 File: App.vue
 
 Description: Entry Vue Component. Listed components are always
-viewable. Declares the <main> section to be routed
-content.
+viewable. <main> section contains routed content.
 
 Author: Vapurrmaid <vapurrmaid@gmail.com>
 
