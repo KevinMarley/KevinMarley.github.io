@@ -52,7 +52,7 @@ const HOME_LINKS = [
 ]
 
 /**
- * Exports component representing a Navigation
+ * Exports component representing a navigation menu
  */
 export default {
   name: 'Drawer',
