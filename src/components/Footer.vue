@@ -2,7 +2,7 @@
 File: Footer.vue
 
 Description: Site-wide Footer component. Contains
-social links, etc.
+social links and copyright information, etc.
 
 Author: Vapurrmaid <vapurrmaid@gmail.com>
 
