@@ -3,7 +3,7 @@ File: Card.vue
 
 Description: Generic material Card component. Use for
 reusable styling.
-**Note** class `card` is defined inexternal sheet materialize.css
+**Note** class `card` is defined externally in materialize.css
 
 Author: Vapurrmaid <vapurrmaid@gmail.com>
 
