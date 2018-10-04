@@ -1,5 +1,5 @@
 /**
- * @file Configures a Router for the Vue Application.
+ * @file Configuration for Vue Router
  *
  * @author Vapurrmaid <vapurrmaid@gmail.com>
  *
@@ -9,23 +9,27 @@
  * The members of {@link https://github.com/KevinMarley} hold the sole rights
  * for contribution and modification.
  */
-import Vue from 'vue'
-import Router from 'vue-router'
-import Home from './views/Home.vue'
 
-Vue.use(Router)
+/**
+ * Dynamically imports a Single File Vue Component from the src/views directory
+ * by name.
+ * @param {string} view - name of a file, omitting the extension. Case sensitive.
+ * @returns {Object} A Vue single file component.
+ */
+function loadView (view) {
+  return () => import(/* webpackChunkName: "view-[request]" */ `@/views/${view}.vue`)
+}
 
-export default new Router({
+export default {
   routes: [
     {
       path: '/',
       name: 'home',
-      component: Home
+      component: loadView('Home')
+    },
+    {
+      path: '*',
+      component: loadView('Home')
     }
-    // {
-    //   path: '/media',
-    //   name: 'media',
-    //   component: () => import(/* webpackChunkName: "media" */ './views/Media.vue')
-    // }
   ]
-})
+}
