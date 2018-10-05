@@ -14,10 +14,13 @@ for contribution and modification.
 -->
 <template>
   <div>
+    <HomeNav />
     <Header />
-    <Meet />
-    <Priorities />
-    <Election />
+    <main>
+      <Meet />
+      <Priorities />
+      <Election />
+    </main>
   </div>
 </template>
 
@@ -25,14 +28,20 @@ for contribution and modification.
 import Election from '@/components/Election'
 import Header from '@/components/Header'
 import Meet from '@/components/Meet'
+import HomeNav from '@/components/TheHomeNav'
 import Priorities from '@/components/Priorities'
 
+/**
+ * Exports Vue Component representing a 'view' for
+ * Home (otherwise considered 'Home Page'
+ */
 export default {
   name: 'Home',
   components: {
     Election,
     Header,
     Meet,
+    HomeNav,
     Priorities
   }
 }

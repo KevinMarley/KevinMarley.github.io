@@ -2,7 +2,7 @@
 File: App.vue
 
 Description: Entry Vue Component. Listed components are always
-viewable. <main> section contains routed content.
+viewable.
 
 Author: Vapurrmaid <vapurrmaid@gmail.com>
 
@@ -14,13 +14,8 @@ The members of {@link https://github.com/KevinMarley} hold the sole rights
 for contribution and modification.
 -->
 <template>
-  <div
-    :class="{ 'application-hidden' : isNavDrawerOpen }"
-    id="app">
-    <Nav />
-    <main>
-      <router-view></router-view>
-    </main>
+  <div :class="{ 'application-hidden' : isNavDrawerOpen }" id="app">
+    <router-view></router-view>
     <Footer />
   </div>
 </template>
@@ -28,11 +23,14 @@ for contribution and modification.
 <script>
 import { mapGetters } from 'vuex'
 import Footer from '@/components/Footer'
-import Nav from '@/components/Nav'
 
+/**
+ * Exports root Vue Component. Child components are
+ * always-viewable.
+ */
 export default {
   name: 'App',
-  components: { Footer, Nav },
+  components: { Footer },
   computed: mapGetters('application', ['isNavDrawerOpen'])
 }
 </script>

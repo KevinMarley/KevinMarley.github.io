@@ -5,7 +5,7 @@ import Vuex from 'vuex'
 import { expect } from 'chai'
 import { mockAction } from '../helpers'
 import ApplicationModule from '@/store/modules/application'
-import Nav from '@/components/Nav'
+import HomeNav from '@/components/TheHomeNav'
 
 // setup a localVue for a mocked vuex application
 const localVue = createLocalVue()
@@ -30,32 +30,32 @@ describe('Nav', function () {
       }
     })
 
-    this.wrapper = shallowMount(Nav, { store, localVue })
+    this.wrapper = shallowMount(HomeNav, { store, localVue })
   })
 
   // smoke test
-  it('renders a root div with class navigation', function () {
+  it('renders a root div with class home-navigation', function () {
     expect(this.wrapper.classes())
       .to.be.an('array')
-      .that.includes('navigation')
+      .that.includes('home-navigation')
       .and.has.lengthOf(1)
   })
 
   // check clicking the hamburger triggers store action
   it('clicking the hamburger button triggers toggleNavDrawer action', function () {
     expect(this.toggleNavDrawerAction.getCalled()).to.equal(0)
-    const btn = this.wrapper.find('.navigation__btn')
+    const btn = this.wrapper.find('.home-navigation__btn')
     btn.trigger('click')
     expect(this.toggleNavDrawerAction.getCalled()).to.equal(1)
   })
 
   // check reacts to store getter - closed case
   it('the hamburger class is initially closed', function () {
-    const hamburger = this.wrapper.find('.navigation__hamburger')
+    const hamburger = this.wrapper.find('.home-navigation__hamburger')
     expect(hamburger.classes())
       .to.be.an('array')
-      .that.includes('navigation__hamburger--closed')
-      .and.not.includes('navigation__hamburger--open')
+      .that.includes('home-navigation__hamburger--closed')
+      .and.not.includes('home-navigation__hamburger--open')
   })
 
   // check reacts to store getter - open case
@@ -73,10 +73,10 @@ describe('Nav', function () {
         }
       }
     })
-    const hamburger = shallowMount(Nav, { store, localVue }).find('.navigation__hamburger')
+    const hamburger = shallowMount(HomeNav, { store, localVue }).find('.home-navigation__hamburger')
     expect(hamburger.classes())
       .to.be.an('array')
-      .that.includes('navigation__hamburger--open')
-      .and.not.includes('navigation__hamburger--close')
+      .that.includes('home-navigation__hamburger--open')
+      .and.not.includes('home-navigation__hamburger--close')
   })
 })

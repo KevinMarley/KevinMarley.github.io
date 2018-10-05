@@ -1,8 +1,8 @@
 <!--
-File: Nav.vue
+File: TheHomeNav.vue
 
-Description: Navigation Menu. Hamburger menu open/closes
-a navigation drawer.
+Description: Navigation Menu for the Home Page. Renders as
+a hamburger menu button that triggers a navigation drawer.
 
 Author: Vapurrmaid <vapurrmaid@gmail.com>
 
@@ -14,15 +14,15 @@ The members of {@link https://github.com/KevinMarley} hold the sole rights
 for contribution and modification.
 -->
 <template>
-  <div class="navigation">
+  <div class="home-navigation">
 
     <!-- Hamburger Menu -->
     <div
       @click="toggleNavDrawer"
-      class="navigation__btn">
+      class="home-navigation__btn">
       <span
-        :class="{ 'navigation__hamburger--open' : isNavDrawerOpen, 'navigation__hamburger--closed' : !isNavDrawerOpen }"
-        class="u-center navigation__hamburger">
+        :class="{ 'home-navigation__hamburger--open' : isNavDrawerOpen, 'home-navigation__hamburger--closed' : !isNavDrawerOpen }"
+        class="u-center home-navigation__hamburger">
         &nbsp;
       </span>
     </div>
@@ -46,7 +46,7 @@ import Drawer from '@/components/Drawer'
  * @property {function} toggleNavDrawer
  */
 export default {
-  name: 'Nav',
+  name: 'HomeNav',
   components: { Drawer },
   computed: mapGetters('application', ['isNavDrawerOpen']),
   methods: mapActions('application', ['toggleNavDrawer'])
@@ -56,7 +56,7 @@ export default {
 <style lang="scss">
 @import '../sass/abstracts/variables';
 
-.navigation {
+.home-navigation {
   &__btn {
     // sizing
     width: $hamburger-height;
