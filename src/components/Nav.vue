@@ -1,3 +1,18 @@
+<!--
+File: Nav.vue
+
+Description: Navigation Menu. Hamburger menu open/closes
+a navigation drawer.
+
+Author: Vapurrmaid <vapurrmaid@gmail.com>
+
+Copyright (C) 2018 kevinmarley.ca <vapurrmaid@gmail.com>
+
+This code can be freely viewed and forked as per the GitHub
+terms of service. However, it may not be modified or distributed.
+The members of {@link https://github.com/KevinMarley} hold the sole rights
+for contribution and modification.
+-->
 <template>
   <div class="navigation">
 
@@ -16,6 +31,7 @@
     <transition name="slideRight">
       <Drawer v-if="isNavDrawerOpen" />
     </transition>
+
   </div>
 </template>
 
@@ -23,6 +39,12 @@
 import { mapActions, mapGetters } from 'vuex'
 import Drawer from '@/components/Drawer'
 
+/**
+ * Exports a navigation menu button that toggles a drawer
+ *
+ * @vue-computed {boolean} isNavDrawerOpen
+ * @property {function} toggleNavDrawer
+ */
 export default {
   name: 'Nav',
   components: { Drawer },

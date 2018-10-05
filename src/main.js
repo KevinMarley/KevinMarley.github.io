@@ -1,29 +1,30 @@
 /**
  * @file Entry point into the Vue application.
+ *
  * @author Vapurrmaid <vapurrmaid@gmail.com>
  *
- * @license
- *
- * Copyright (C) 2018 kevinmarley.ca <vapurrmaid@gmail.com>
- *
+ * @license Copyright (C) 2018 kevinmarley.ca <vapurrmaid@gmail.com>
  * This code can be freely viewed and forked as per the GitHub
  * terms of service. However, it may not be modified or distributed.
  * The members of {@link https://github.com/KevinMarley} hold the sole rights
  * for contribution and modification.
  */
 import Vue from 'vue'
+import Router from 'vue-router'
 import Vuex from 'vuex'
 import VueScrollTo from 'vue-scrollto'
 import '@/sass/main.scss'
 import App from './App.vue'
-import router from './router'
+import routerConfig from './router'
 import storeConfig from './store/'
 
 Vue.config.productionTip = false
 
-Vue.use(VueScrollTo)
+Vue.use(Router)
 Vue.use(Vuex)
+Vue.use(VueScrollTo)
 
+const router = new Router(routerConfig)
 const store = new Vuex.Store(storeConfig)
 
 new Vue({

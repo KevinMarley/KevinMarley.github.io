@@ -33,6 +33,7 @@ describe('Nav', function () {
     this.wrapper = shallowMount(Nav, { store, localVue })
   })
 
+  // smoke test
   it('renders a root div with class navigation', function () {
     expect(this.wrapper.classes())
       .to.be.an('array')
@@ -40,6 +41,7 @@ describe('Nav', function () {
       .and.has.lengthOf(1)
   })
 
+  // check clicking the hamburger triggers store action
   it('clicking the hamburger button triggers toggleNavDrawer action', function () {
     expect(this.toggleNavDrawerAction.getCalled()).to.equal(0)
     const btn = this.wrapper.find('.navigation__btn')
@@ -47,6 +49,7 @@ describe('Nav', function () {
     expect(this.toggleNavDrawerAction.getCalled()).to.equal(1)
   })
 
+  // check reacts to store getter - closed case
   it('the hamburger class is initially closed', function () {
     const hamburger = this.wrapper.find('.navigation__hamburger')
     expect(hamburger.classes())
@@ -55,6 +58,7 @@ describe('Nav', function () {
       .and.not.includes('navigation__hamburger--open')
   })
 
+  // check reacts to store getter - open case
   it('the hamburger class is open if nav drawer is open', function () {
     // create new store where getter returns true
     store = new Vuex.Store({
