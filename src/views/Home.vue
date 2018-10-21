@@ -15,6 +15,9 @@ for contribution and modification.
 <template>
   <div>
     <Header />
+      <div class="container video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/boG2gW_FWhs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
     <Meet />
     <Priorities />
     <Election />
