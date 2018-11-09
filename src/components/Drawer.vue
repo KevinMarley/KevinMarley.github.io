@@ -78,7 +78,7 @@ export default {
   top: calc(#{$hamburger-height} + #{$hamburger-top} + 1rem);
   z-index: $z-index-highest;
 
-  background-color: $color-white;
+  background-color: $color-grey;
   line-height: normal !important; /* override materialize */
 
   // local navigation links
