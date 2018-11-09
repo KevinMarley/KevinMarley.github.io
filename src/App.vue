@@ -14,33 +14,7 @@ The members of {@link https://github.com/KevinMarley} hold the sole rights
 for contribution and modification.
 -->
 <template>
-  <div
-    :class="{ 'application-hidden' : isNavDrawerOpen }"
-    id="app">
-    <Nav />
-    <main>
-      <router-view></router-view>
-    </main>
-    <Footer />
-  </div>
+  <main>
+    <router-view></router-view>
+  </main>
 </template>
-
-<script>
-import { mapGetters } from 'vuex'
-import Footer from '@/components/Footer'
-import Nav from '@/components/Nav'
-
-export default {
-  name: 'App',
-  components: { Footer, Nav },
-  computed: mapGetters('application', ['isNavDrawerOpen'])
-}
-</script>
-
-<style>
-/* Removes scroll/height from application while nav is open */
-.application-hidden {
-  height: 100vh;
-  overflow: hidden;
-}
-</style>

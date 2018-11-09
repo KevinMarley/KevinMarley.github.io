@@ -11,24 +11,16 @@
  */
 import Vue from 'vue'
 import Router from 'vue-router'
-import Vuex from 'vuex'
-import VueScrollTo from 'vue-scrollto'
-import '@/sass/main.scss'
 import App from './App.vue'
 import routerConfig from './router'
-import storeConfig from './store/'
 
 Vue.config.productionTip = false
 
 Vue.use(Router)
-Vue.use(Vuex)
-Vue.use(VueScrollTo)
 
 const router = new Router(routerConfig)
-const store = new Vuex.Store(storeConfig)
 
 new Vue({
   router,
-  store,
   render: h => h(App)
 }).$mount('#root')

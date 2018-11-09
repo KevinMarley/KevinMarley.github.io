@@ -23,13 +23,8 @@ function loadView (view) {
 export default {
   routes: [
     {
-      path: '/',
-      name: 'home',
-      component: loadView('Home')
-    },
-    {
       path: '*',
-      component: loadView('Home')
+      component: loadView('Landing')
     }
   ]
 }
