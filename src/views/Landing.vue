@@ -20,18 +20,19 @@ for contribution and modification.
           <span>K</span>evin
           <span>M</span>arley
         </h1>
-       <!--  <a class="social-icon" href="#">
+        <h2>Sales Representative <br />
+            Davenport Realty Brokerage <br />
+            Hamilton, ON
+        </h2>
+        <a class="social-icon" href="https://www.facebook.com/kevinmarleydavenport" title="Kevin Marley's Facebook">
           <i class="fab fa-facebook-f"></i>
-        </a> -->
-        <a class="social-icon" href="https://twitter.com/Kevin_Marley_BR" title="Kevin Marley's Twitter">
+        </a>
+        <a class="social-icon" href="https://twitter.com/Kevin_M_dvnprt" title="Kevin Marley's Twitter">
           <i class="fab fa-twitter"></i>
         </a>
-        <a class="social-icon" href="https://www.youtube.com/channel/UCro36caxYNyDbdUKkhRZvRA" title="Kevin Marley's YouTube">
-          <i class="fab fa-youtube"></i>
-        </a>
-        <!-- <a class="social-icon" href="#">
+        <a class="social-icon" href="https://www.instagram.com/kevin.marley.dvnprt/" title="Kevin Marley's Instagram">
           <i class="fab fa-instagram"></i>
-        </a> -->
+        </a>
       </div>
     </header>
     <h3>Coming Soon</h3>
@@ -86,6 +87,12 @@ header > div {
 
 @media only screen and (max-width: 420px) {
   .landing header { text-align: left; }
+}
+
+.landing h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
 .social-icon {

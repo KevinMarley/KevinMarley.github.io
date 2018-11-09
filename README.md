@@ -1,7 +1,9 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/KevinMarley/KevinMarley.github.io.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.com/KevinMarley/KevinMarley.github.io.svg?branch=dev)](https://travis-ci.com/KevinMarley/KevinMarley.github.io)
 # kevinmarley.ca
-Repository for http://www.kevinmarley.ca
+Sales Representative, Davenport Realty Brokerage. Hamilton ON, Canada.
+
+> https://www.kevinmarley.ca
 
 ## Copyright Notice
 
