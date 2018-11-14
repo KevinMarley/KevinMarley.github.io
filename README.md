@@ -3,7 +3,7 @@
 # kevinmarley.ca
 Sales Representative, Davenport Realty Brokerage. Hamilton ON, Canada.
 
-> https://www.kevinmarley.ca
+> https://kevinmarley.ca
 
 ## Copyright Notice
 
