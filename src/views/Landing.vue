@@ -35,7 +35,7 @@ for contribution and modification.
         </a>
       </div>
     </header>
-    <h3>Coming Soon</h3>
+    <!-- <h3>Coming Soon</h3> -->
   </div>
 </template>
 
@@ -117,7 +117,7 @@ header > div {
   border-color: #ddd;
 }
 
-h3 {
+/*h3 {
   position: absolute;
   top: 0;
   left: 1rem;
@@ -126,5 +126,5 @@ h3 {
   font-size: 2rem;
   font-weight: 100;
   text-transform: lowercase;
-}
+}*/
 </style>
