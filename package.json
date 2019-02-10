@@ -30,7 +30,6 @@
     "test:watch": "vue-cli-service test:unit --watch"
   },
   "dependencies": {
-    "ajv": "^6.8.1",
     "push-dir": "^0.4.1",
     "vue": "^2.6.4",
     "vue-router": "^3.0.2"
