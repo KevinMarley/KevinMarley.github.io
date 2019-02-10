@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "push-dir": "^0.4.1",
-    "vue": "^2.6.3",
+    "vue": "^2.6.4",
     "vue-router": "^3.0.2"
   },
   "devDependencies": {
@@ -42,7 +42,7 @@
     "@vue/eslint-config-standard": "^4.0.0",
     "@vue/test-utils": "^1.0.0-beta.29",
     "chai": "^4.2.0",
-    "vue-template-compiler": "^2.6.3"
+    "vue-template-compiler": "^2.6.4"
   },
   "engines": {
     "node": ">=8.11.0"
